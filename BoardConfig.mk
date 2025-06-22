@@ -104,7 +104,7 @@ BOARD_ITEL_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 # https://source.android.com/devices/bootloader/partitions/generic-boot#combinations, "Launch device without recovery partition":
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-#TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 
 # Verified Boot
