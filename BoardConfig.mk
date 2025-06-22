@@ -154,6 +154,9 @@ PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 #TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone16/temp
 
 
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
+TW_MAX_BRIGHTNESS := 4095
+TW_DEFAULT_BRIGHTNESS := 1200
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
