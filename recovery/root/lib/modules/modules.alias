@@ -429,3 +429,9 @@ alias of:N*T*Csprd,ump518-vibrator sc27xx_vibra
 alias of:N*T*Csprd,ump518-vibratorC* sc27xx_vibra
 alias of:N*T*Csprd,sc9860-gpio gpio_sprd
 alias of:N*T*Csprd,sc9860-gpioC* gpio_sprd
+alias of:N*T*Cfocaltech,fts focaltech_ft8722
+alias of:N*T*Cfocaltech,ftsC* focaltech_ft8722
+alias of:N*T*Cadaptive-touchscreen focaltech_ft8722
+alias of:N*T*Cadaptive-touchscreenC* focaltech_ft8722
+alias of:N*T*Cadaptive-touchscreen omnivision_td4160
+alias of:N*T*Cadaptive-touchscreenC* omnivision_td4160

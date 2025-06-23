@@ -56,3 +56,6 @@ slog_bridge.ko
 sbuf_bridge.ko
 sblock_bridge.ko
 usb_f_vser.ko
+omnivision_td4160.ko
+novatek_nt36xxx.ko
+focaltech_ft8722.ko
