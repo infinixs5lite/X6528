@@ -1,6 +1,17 @@
 #add for board init.rc for recovery mode
 import /init.recovery.common.rc
 
+
+on fs
+start prepdecrypt 
+
+service prepdecrypt /system/bin/prepdecrypt.sh
+oneshot
+disabled
+user root
+group root
+seclabel u:r:recovery:s0
+
 service keystore2 /system/bin/keystore2 /data/misc/keystore
     user root
     group root
@@ -36,11 +47,12 @@ stop keymint-2-0
 stop gatekeeper-1-0
 
 on fs
+ install_keyring
  start keymint-2-0
  start gatekeeper-1-0
  start boot-hal-1-2
  start health-hal-2-1
- 
+
  
  #### THIS IS FROM INIT RECOVERY COMMMON
 
