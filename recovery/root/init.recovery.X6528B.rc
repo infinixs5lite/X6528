@@ -47,11 +47,11 @@ stop keymint-2-0
 stop gatekeeper-1-0
 
 on boot
-# install_keyring
- start keymint-2-0
- start gatekeeper-1-0
- start boot-hal-1-2
- start health-hal-2-1
+install_keyring
+start keymint-2-0
+start gatekeeper-1-0
+start boot-hal-1-2
+start health-hal-2-1
 
  
  #### THIS IS FROM INIT RECOVERY COMMMON
