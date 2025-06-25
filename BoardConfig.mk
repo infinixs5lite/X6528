@@ -140,7 +140,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 #TW_INCLUDE_CRYPTO := true
 #TW_INCLUDE_CRYPTO_FBE := true
 #BOARD_USES_METADATA_PARTITION := true
-TW_USE_FSCRYPT_POLICY := 1
+TW_USE_FSCRYPT_POLICY := 2
 
 # Hack: prevent anti rollback
 
