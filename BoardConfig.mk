@@ -39,7 +39,10 @@ BOARD_RAMDISK_USE_LZ4 := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Infinix-X6528
-
+# Dynamic Partition
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+# System as root
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -166,6 +169,8 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_DEVICE_VERSION := X6528-Massatrio16
+TW_INCLUDE_NTFS_3G := true
+TARGET_USES_MKE2FS := true
 
 #logs
 TARGET_USES_LOGD := true
