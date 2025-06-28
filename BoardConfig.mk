@@ -39,8 +39,7 @@ BOARD_RAMDISK_USE_LZ4 := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Infinix-X6528
-# Dynamic Partition
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
 
