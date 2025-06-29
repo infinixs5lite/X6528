@@ -47,18 +47,9 @@
 /super                    emmc         /dev/block/by-name/super                  flags=display="Super";flashimg
 /userdata_default                 emmc       /dev/block/by-name/userdata                 flags=display="Userdata default";flashimg
 
-
-# Dynamic Partitions ( A Slots )
-
-
-
 # Removable storage
 /external_sd		auto	/dev/block/mmcblk1p1	/dev/block/mmcblk1			flags=display="External SDcard";storage;wipeingui;removable;backup=0
 /usbotg				auto    /dev/block/sda1			/dev/block/sda				flags=display="Usb-Otg";storage;wipeingui;removable;backup=0
-
-
-/data auto /dev/block/by-name/userdata flags=display="Data"
-
 
 ## Internal storage (for OrangeFox)
 #/storage            f2fs      /data/media/0                                                         flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable;
