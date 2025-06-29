@@ -6,7 +6,6 @@
 /dtb			        emmc 	/dev/block/by-name/dtb 		        flags=display="dtbo";backup=1;flashimg=1;slotselect
 /vendor_boot        emmc      /dev/block/by-name/vendor_boot                    flags=display="Vendor Boot";flashimg=1;backup=1;slotselect
 
-
 # VERIFY BOOT
 
 /vbmeta                         emmc    /dev/block/by-name/vbmeta                   flags=display="VBMeta";backup=1;flashimg=1;slotselect
@@ -45,6 +44,7 @@
 
 
 /super                    emmc         /dev/block/by-name/super                  flags=display="Super";flashimg
+
 /userdata_default                 emmc       /dev/block/by-name/userdata                 flags=display="Userdata default";flashimg
 
 # Removable storage
