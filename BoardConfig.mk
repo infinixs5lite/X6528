@@ -9,7 +9,7 @@ DEVICE_PATH := device/infinix/X6528
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-
+SELINUX_IGNORE_NEVERALLOWS := true
 # A/B
 # A/B support
 AB_OTA_UPDATER := true
