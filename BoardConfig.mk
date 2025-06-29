@@ -27,6 +27,7 @@ AB_OTA_PARTITIONS += \
     vbmeta_system \
     vbmeta_vendor
 
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 #vendor_boot configuration
 TARGET_NO_RECOVERY := true
