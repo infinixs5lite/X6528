@@ -9,7 +9,7 @@ DEVICE_PATH := device/infinix/X6528
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-SELINUX_IGNORE_NEVERALLOWS := true
+
 # A/B
 # A/B support
 AB_OTA_UPDATER := true
@@ -27,7 +27,6 @@ AB_OTA_PARTITIONS += \
     vbmeta_system \
     vbmeta_vendor
 
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 #vendor_boot configuration
 TARGET_NO_RECOVERY := true
